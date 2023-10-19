@@ -234,7 +234,7 @@ INVALID PROC
     CALL NEWLINE
 
     mov ah, 9
-    mov al, ''     ; Character to print (space to set the background color)
+    mov al, ' '     ; Character to print (space to set the background color)
     mov bh, 0       ; Page number (usually 0)
     mov bl, 00CH       ; Attribute byte (background color is 0 (black), foreground color is 4 (red))
     MOV CX,0050H
@@ -735,7 +735,7 @@ MAIN PROC
     INT 10H
 
     mov ah, 9
-    mov al, ''     ; Character to print (space to set the background color)
+    mov al, ' '     ; Character to print (space to set the background color)
     mov bh, 0       ; Page number (usually 0)
     mov bl, 4       ; Attribute byte (background color is 0 (black), foreground color is 4 (red))
     MOV CX,01F0H
@@ -766,7 +766,7 @@ MAIN PROC
     CALL NEWLINE
 
     mov ah, 9
-    mov al, ''     ; Character to print (space to set the background color)
+    mov al, ' '     ; Character to print (space to set the background color)
     mov bh, 0       ; Page number (usually 0)
     mov bl, 9       ; Attribute byte (background color is 0 (black), foreground color is 4 (red))
     MOV CX,0050H
@@ -778,7 +778,7 @@ MAIN PROC
     INT 21H
 
     mov ah, 9
-    mov al, ''     ; Character to print (space to set the background color)
+    mov al, ' '     ; Character to print (space to set the background color)
     mov bh, 0       ; Page number (usually 0)
     mov bl, 00AH       ; Attribute byte (background color is 0 (black), foreground color is 4 (red))
     MOV CX,0050H
