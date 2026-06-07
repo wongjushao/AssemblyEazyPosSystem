@@ -13,7 +13,7 @@ A DOS-based Point of Sale (POS) system written in x86 Assembly language for a fr
 
 ## Project Structure
 
-- `/tmp/workspace/wongjushao/AssemblyEazyPosSystem/simple pos system.asm` — main source file
+- `simple pos system.asm` — main source file
 
 ## Requirements
 
