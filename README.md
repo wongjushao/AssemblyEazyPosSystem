@@ -1,5 +1,7 @@
 # AssemblyEazyPosSystem
 
+> Project name follows the repository's original spelling.
+
 A DOS-based Point of Sale (POS) system written in x86 Assembly language for a fruit store scenario.
 
 ## Features
@@ -7,7 +9,7 @@ A DOS-based Point of Sale (POS) system written in x86 Assembly language for a fr
 - Login gate with a 4-digit admin password (`8989`)
 - Product menu for 5 items (Apple, Orange, Pineapple, Watermelon, Guava)
 - Quantity input per item (up to 99)
-- Subtotal and SST tax (5%) calculation
+- Subtotal and Sales and Service Tax (SST, 5%) calculation
 - Receipt printing with customer number and date
 - Multi-customer flow with daily sales summary
 
