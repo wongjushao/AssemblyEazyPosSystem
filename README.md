@@ -1,7 +1,5 @@
 # AssemblyEazyPosSystem
 
-> Project name follows the repository's original spelling.
-
 A DOS-based Point of Sale (POS) system written in x86 Assembly language for a fruit store scenario.
 
 ## Features
